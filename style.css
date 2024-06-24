@@ -1,0 +1,618 @@
+
+
+
+.main{
+    /* position: absolute; */
+    height: 100vh;
+    width: 100%;
+    background-image: url(ecommerce.png);
+    background-size: cover;
+    margin-top: -20px;
+}
+.ser{
+    /* position: relative; */
+    /* margin-top: 30px; */
+    padding-top: 150px;
+    font-size: 30px;
+    color: #dfd7d7;
+}
+.dev{
+    font-size:70px;
+    color: white;
+    font-weight: bold;
+    margin-top: -20px;
+}
+.comp{
+    font-size: 70px;
+    color: white;
+    margin-top: -25px;
+    font-weight: bold;
+}
+.meet{
+    color: white;
+    /* margin-top: -10px; */
+}
+nav{
+    position:fixed;
+    height: 90px;
+    width: 1200px;
+    /* background-color: #7f1111; */
+    z-index: 1;
+    /* box-shadow: 10px 10px 10px; */
+    background-color: black;
+    
+}
+.img{
+    height: 60px;
+    width: 60px;
+   margin: 15px;
+   mix-blend-mode: screen;
+      
+}
+h1{
+    color: rgb(241, 224, 224);
+    margin-left: 110px;
+    margin-top: -70px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav ul{
+      float: right;
+      margin: 20px;
+      margin-top: -75px;
+    
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    margin-left: 10px;
+    margin-top: 0px;
+
+}
+li a{
+    color: rgb(237, 241, 245);
+    padding: 7px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+li a:hover{
+    background: green;
+       
+}
+.brands{
+    height: 250px;
+    width: 100%;
+    background-color: #e3cccc;
+    
+    /* border:2px solid black; */
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+}
+sub{
+    margin-top: 50px;
+    font-size: 20px;
+    color: bisque;
+    margin-right: 100px;
+}
+.asas{
+    height:250px;
+    /* background-image: url(leaf.jpg); */
+    background-color: #9c2424;;
+}
+
+.container{
+    /* position: absolute; */
+    height: 400px;
+    width: 100%;
+    /* border: 1px solid black; */
+    /* flex-direction: row; */
+    display: flex;
+    justify-content: space-around;
+}
+.box{
+    /* position: absolute; */
+    height: 350px;
+    width: 400px;
+    margin: 25px;
+    /* border: 1px solid black; */
+    flex-direction: row;
+}
+#box1{
+    box-shadow: 10px 10px 10px;
+    border-top-right-radius: 15%;
+   border-bottom-left-radius: 15%;
+}
+
+.addi1{
+    font-size: 50px;
+    margin-left: 110px;
+    color: darkgreen;
+    /* border-top-right-radius: 10%; */
+}
+#box2{
+    background-image: url("logo-adidas-antiguo-618x325.jpeg");
+    background-repeat: no-repeat;
+    background-size:400px 350px;
+    box-shadow: 10px 10px 10px;
+    border-top-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+}
+.contain{
+    height: 400px;
+    width: 100%;
+    /* border: 1px solid black; */
+    /* flex-direction: row; */
+    display: flex;
+    justify-content: space-around;
+}
+.box1{
+    height: 350px;
+    width: 400px;
+    margin: 25px;
+    /* border: 1px solid black; */
+    flex-direction: row;
+    /* border: 1px solid black; */
+    box-shadow: 10px 10px 10px;
+}
+p{
+    font-size: 22px;
+    margin: 10px;
+    margin-top: 30px;
+}
+.p{
+   font-size: 50px;
+   color: #7f2727;
+   margin-left: 110px;
+}
+
+#box3{
+    border-top-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+}
+#box4{
+    background-image: url(campus.jpeg);
+    background-size: 400px 350px;
+    border-top-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+}
+.contain2{
+    height: 400px;
+    width: 100%;
+    /* border: 1px solid black; */
+    /* flex-direction: row; */
+    display: flex;
+    justify-content: space-around;
+}
+.box2{
+    height: 350px;
+    width: 400px;
+    margin: 25px;
+    /* border: 1px solid black; */
+    flex-direction: row;
+    /* border: 1px solid black; */
+    box-shadow: 10px 10px 10px;
+}
+
+#box5{
+    border-top-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+}
+
+#box6{
+    background-image: url(nike.jpg);
+    background-size: 400px 350px;
+    border-top-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+
+}
+.nike1{
+    font-size: 50px;
+    margin-left: 155px;
+    color: rgb(76, 167, 48);
+}
+.contain3{
+    height: 400px;
+    width: 100%;
+    /* border: 1px solid black; */
+    /* flex-direction: row; */
+    display: flex;
+    justify-content: space-around;
+}
+.box3{
+    height: 350px;
+    width: 400px;
+    margin: 25px;
+    /* border: 1px solid black; */
+    flex-direction: row;
+    /* border: 1px solid black; */
+    box-shadow: 10px 10px 10px;
+}
+#box7{
+    border-top-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+}
+
+#box8{
+   background-image: url(puma.jpg);
+   background-size: 400px 350px;
+   border-top-right-radius: 15%;
+   border-bottom-left-radius: 15%;
+}
+.puma1{
+    font-size: 50px;
+    color: rgb(231, 139, 26);
+    margin-left: 130px;
+}
+
+.contain4{
+    /* height: 400px;  */
+    width: 100%;
+    /* border: 1px solid black; */
+    /* flex-direction: row; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.box4{
+    height: 350px;
+    width: 400px;
+    margin: 25px;
+    /* border: 1px solid black; */
+    flex-direction: row;
+    /* border: 1px solid black; */
+    box-shadow: 10px 10px 10px;
+}
+.red1{
+    font-size: 50px;
+    color: coral;
+    margin-left: 100px;
+}
+#box9{
+    border-top-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+}
+#box10{
+    background-image: url(redtape.jpg);
+    background-size: 400px 350px;
+    border-top-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+}
+
+
+.contain5{
+    height: 700px;
+    width: 100%;
+    /* border: 1px solid black; */
+    /* background-color: #e7e0e0; */
+}
+.range{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: 300px;
+    margin-top: 1px;
+}
+p{
+    margin-top: 20px;
+}
+.contain6{
+    height: 160px;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+}
+.contain7{
+    height:450px;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+    
+}
+.shop{
+    font-size: 30px;
+}
+.cart{
+    font-size: 50px;
+    margin-top: -10px;
+    font-weight: 700;
+
+}
+.inner{
+    height: 449px;
+    width: 380px;
+    /* border: 1px solid black; */
+    margin-bottom: 10px;
+    border-top-right-radius: 3%;
+    border-bottom-left-radius: 3%; 
+    box-shadow: 10px 10px 0px 0px;
+   
+}
+.chain{
+    font-size: 30px;
+}
+.man{
+    font-size:39px;
+    margin-top: -10px;
+    font-weight:bold;
+}
+.rep{
+    font-size: 30px;
+}
+.and{
+    font-size: 40px;
+    font-size: 50px;
+    margin-top: -10px;
+    font-weight: 700;
+}
+
+
+.container1{
+    /* height: 1450px; */
+    width: 100%;
+    /* border: 1px solid black; */
+    /* background-color : #ddd4de; */
+}
+.head{
+    height: 200px;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+}
+.inno{
+    font-size: 50px;
+    font-weight:bolder;
+    margin-left: 130px;
+
+}
+.our{
+    margin-left: 290px;
+}
+.the{
+    margin-left: 80px;
+    margin-top: -20px;
+}
+.container2{
+    /* height: 650px; */
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+}
+.photo{
+    height:650px;
+    width: 270px;
+    /* border: 1px solid black; */
+}
+#photo1{
+    background-image: url("https://cdn.fullestop.com/images/img-09.webp");
+   background-size: 270px 250px;
+   background-repeat: no-repeat;
+}
+.mobile{
+    font-size: 35px;
+    margin-top: -35px;
+}
+.eee{
+    margin-top: 300px;
+}
+.team{
+    font-size: 20px;
+}
+.but{
+    margin-left: 80px;
+    font-size: 20px;
+    /* background-color: #efd8d8; */
+    border-radius: 15%;
+}
+
+#photo2{
+    background-image: url("https://cdn.fullestop.com/images/img-10.webp");
+    background-size: 270px 250px;
+    background-repeat: no-repeat;
+}
+.on{
+    margin-top: 300px;
+}
+
+
+.food{
+    font-size: 35px;
+    margin-top: -40px;
+}
+.make{
+    font-size: 20px;
+}
+.butt{
+    margin-left: 80px;
+    font-size: 20px;
+    /* background-color:#efd8d8; */
+    border-radius: 15%;
+    margin-top: 25px;
+}
+.butt:hover{
+    background-color: #453535;
+    cursor: pointer;
+}
+#photo3{
+    background-image: url("https://cdn.fullestop.com/images/img-13.webp");
+    background-size: 270px 250px;
+    background-repeat: no-repeat;
+}
+.e{
+    margin-top: 300px;
+}
+.sol{
+    font-size: 35px;
+    margin-top: -40px;
+}
+#photo4{
+    background-image: url("https://cdn.fullestop.com/images/img-12.webp");
+    background-size: 270px 250px;
+    background-repeat: no-repeat;
+}
+.fan{
+    margin-top: 300px;
+}
+.gam{
+   font-size: 35px;
+   margin-top: -40px;
+}
+.col{
+    font-size: 20px;
+}
+.container3{
+    /* height: 180 px; */
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+}
+.st{
+    margin-left: 450px;
+}
+.we{
+    margin-left: 150px;
+    font-size: 50px;
+    margin-top: -10px;
+}
+.cl{
+    margin-left:350px ;
+    margin-top: -8px;
+}
+.container4{
+    /* height: 300px; */
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.ab{
+    height: 300px;
+    width: 305px;
+    /* border: 1px solid black; */
+}
+#ab1{
+    background-image: url("https://cdn.fullestop.com/portfolio-images/small/sonypictures-networks-brand.webp");
+    background-size: 305px 300px;
+}
+#ab2{
+    background-image: url("https://cdn.fullestop.com/portfolio-images/small/yaari-dosti-shaadi-brand.webp");
+    background-size: 305px 300px;
+}
+#ab3{
+    background-image: url("https://cdn.fullestop.com/portfolio-images/small/ukieri-brand.webp");
+    background-size: 305px 300px;
+}
+#ab4{
+    background-image: url("https://cdn.fullestop.com/portfolio-images/small/brand-image7.webp");
+    background-size: 305px 300px;
+}
+.all{
+    height: 40px;
+    width: 300px;
+    font-size: 30px;
+    margin-left: 470px;
+    margin-top: 50px;
+    background-color: yellow;
+    border-radius: 15px;
+    border: 0px;
+}
+.all:hover{
+    background-color: #453535;
+    cursor: pointer;
+}
+
+.container6{
+    width: 100%;
+   background-color: #eef4fa;
+    /* border: 1px solid black; */
+    margin-top: 1160px;
+    display: flex;
+    align-items: r
+    ;
+}
+#last{
+    width: 100%;
+    /* background-color: #ddcccc; */
+}
+#last1{
+    width: 40%;
+    /* background-color: rgb(94, 93, 93); */
+}
+.contect{
+    font-size: 20px;
+    margin: 20px;
+}
+.contect:hover{
+    background-color: #453535;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.look{
+    font-size: 60px;
+    font-weight: bold;
+}
+#last2{
+    width: 60%;
+    /* background-color: #eddddd; */
+}
+.boxname{
+    height: 50px;
+    width: 250px;
+    margin: 30px;
+    border-radius: 10px 10px 10px;
+    border: 0px;
+}
+.email{
+    height: 50px;
+    width:250px ;
+    border-radius: 10px 10px 10px;
+    border: 0px;
+}
+.phone{
+height: 50px;
+width: 250px;
+border-radius:10px 10px 10px ;
+margin-left: 30px;
+border: 0px;
+}
+.text{
+    height: 200px;
+    width: 540px;
+    margin: 40px 30px 20px ;
+    border-radius: 10px 10px 10px ;
+    padding:0px;
+    font-size: 20px;
+    border: 0px;
+   
+}
+.submit{
+       height: 60px;
+       width: 300px;
+       font-size: 30px;
+       font-weight: bold;
+       border-radius: 15px 15px 15px ;
+       margin-left: 273px;
+       background-color: yellow;
+       border: 0px;
+       cursor: pointer;
+}
+.submit:hover{
+    background-color: #453535;
+}
+
+
